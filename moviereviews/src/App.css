@@ -47,13 +47,15 @@ nav {
 }
 h3 {
   text-align: left;
+  text-decoration: underline;
   padding-left: 1em;
   padding-top: 1em;
   color: aliceblue;
 }
 .thumbnails {
   height: 300px;
-  padding: 1em;
+  margin: 1em;
+  box-shadow: 10px 10px 8px rgb(61, 61, 61);
 }
 .container-lg {
   padding: 1em;
@@ -66,19 +68,32 @@ h3 {
   justify-content: space-around;
   padding: 1em;
   color: #305F72;
+  margin: 1em;
 }
-.movie-info img {
+.movie-image {
   height: 200px;
+  box-shadow: 10px 10px 5px gray;
 }
 .col-8 h4 {
   text-decoration: underline;
 }
 .review-form {
-  margin: 1px solid black;
+  padding: 1em;
+  margin: 1em;
 }
 .reviews-container {
   background-color: #F18C8E;
   color: #3e7990;
   justify-content: space-around;
   padding: 1em;
+}
+.review-section {
+  padding: 1em;
+  text-align: center;
+  margin: 1em;
+}
+.review-section h4 {
+  text-align: left;
+  text-decoration: underline;
+  text-indent: 2em;
 }
